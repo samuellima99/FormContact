@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.contactLeft {
+  width: 582px;
+  height: 100%;
+  position: relative;
+  float: left;
+  background-image: url('./img/Mask.png');
+  background-size: cover;
+}
+
+.logo {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  left: 140px;
+  top: 226px;
+}
+
+.contactRight {
+  width: 766px;
+  height: 100%;
+  float: left;  
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50pt;
+  line-height: 100px;
+  text-align: center;
+}
+
+.name, .email {
+  width: 424px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-left: 25%;
+  padding-left: 20px;
+  background: #F6F1F1;
+}
+
+.ddd {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-left: 25%;
+  text-align: center;
+  background: #F6F1F1;
+  float: left;
+}
+
+.tel {
+  width: 310px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-left: 2%;
+  padding-left: 20px;
+  background: #F6F1F1;
+}
+
+textarea {
+  resize: none;
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 25%;
+  padding-left: 20px;
+  padding-top: 15px;
+  background: #F6F1F1;
+}
+
+.btn-submit {
+  width: 445px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 25%;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 11pt;
+  background-image: linear-gradient(to right, #01A4FF, #0075B7);
+}
